@@ -3,4 +3,4 @@ language: python
 python:
 - "3.6"
 script:
-- python -m doctest single_iteration_filter.py
+- python -m doctest -v single_iteration_filter.py
