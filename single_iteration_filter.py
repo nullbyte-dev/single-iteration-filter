@@ -1,4 +1,4 @@
-""" Filter dataset partially in single full dataset iteration.
+""" Filter dataset partially in single iteration.
 Dataset MUST be ordered before applying filtration.
 
 >>> data = [
