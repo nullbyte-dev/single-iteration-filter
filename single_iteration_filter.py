@@ -66,7 +66,7 @@ class SingleIterationFilter:
     def apply(self, key: Callable) -> Iterator[Any]:
         """ Apply passed filter function to dataset """
         if self._exit:
-            # do not fail on attempt applying filtration
+            # do not fail on attempt applying filter
             # on exhausted dataset iterator
             return iter(())
         return self._filter(key)
